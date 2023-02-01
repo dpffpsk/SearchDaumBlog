@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  SearchDaumBlog
 //
-//  Created by jiweon.lee on 2023/02/01.
+//  Created by wons on 2023/02/01.
 //
 
 import UIKit
