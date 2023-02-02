@@ -22,6 +22,7 @@
 		B3E5C205298A5B7F005AD5B6 /* BlogListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E5C203298A5B7F005AD5B6 /* BlogListCell.swift */; };
 		B3E5C206298A5B7F005AD5B6 /* BlogListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E5C204298A5B7F005AD5B6 /* BlogListView.swift */; };
 		B3E5C208298A5B8A005AD5B6 /* BlogListCellData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E5C207298A5B8A005AD5B6 /* BlogListCellData.swift */; };
+		B3E5C20D298B462C005AD5B6 /* AlertActionConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E5C20C298B462C005AD5B6 /* AlertActionConvertible.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		B3E5C203298A5B7F005AD5B6 /* BlogListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlogListCell.swift; sourceTree = "<group>"; };
 		B3E5C204298A5B7F005AD5B6 /* BlogListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlogListView.swift; sourceTree = "<group>"; };
 		B3E5C207298A5B8A005AD5B6 /* BlogListCellData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlogListCellData.swift; sourceTree = "<group>"; };
+		B3E5C20C298B462C005AD5B6 /* AlertActionConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertActionConvertible.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				B3E5C207298A5B8A005AD5B6 /* BlogListCellData.swift */,
+				B3E5C20C298B462C005AD5B6 /* AlertActionConvertible.swift */,
 			);
 			path = Entities;
 			sourceTree = "<group>";
@@ -107,10 +110,18 @@
 			children = (
 				B3E5C1FD298A3578005AD5B6 /* SearchBar.swift */,
 				B3E5C1FF298A5974005AD5B6 /* FilterView.swift */,
+				B3E5C20B298B44C4005AD5B6 /* ListView */,
+			);
+			path = SubComponents;
+			sourceTree = "<group>";
+		};
+		B3E5C20B298B44C4005AD5B6 /* ListView */ = {
+			isa = PBXGroup;
+			children = (
 				B3E5C203298A5B7F005AD5B6 /* BlogListCell.swift */,
 				B3E5C204298A5B7F005AD5B6 /* BlogListView.swift */,
 			);
-			path = SubComponents;
+			path = ListView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,6 +206,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3E5C20D298B462C005AD5B6 /* AlertActionConvertible.swift in Sources */,
 				B3E5C1FC298A3283005AD5B6 /* MainViewController.swift in Sources */,
 				B3E5C206298A5B7F005AD5B6 /* BlogListView.swift in Sources */,
 				B3E5C1FE298A3578005AD5B6 /* SearchBar.swift in Sources */,

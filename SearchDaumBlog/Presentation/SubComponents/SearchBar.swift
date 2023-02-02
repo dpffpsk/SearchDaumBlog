@@ -47,8 +47,8 @@ class SearchBar: UISearchBar {
         
         // 버튼 탭 이벤트가 발생했을 때
         searchButtonTapped
-            .asSignal()
-            .emit(to: self.rx.endEditing)
+            .asSignal() // asSignal : Observalbe -> Signal로 변환
+            .emit(to: self.rx.endEditing) // 구독(subscribe)
             .disposed(by: disposeBag)
         
         // 버튼 탭 이벤트가 발생했을 때 최신 값(빈값, 중복값 없이)을 전달
