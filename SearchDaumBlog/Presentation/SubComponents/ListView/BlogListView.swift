@@ -48,7 +48,7 @@ class BlogListView: UITableView {
     }
     
     private func attribute() {
-        self.backgroundColor = .white
+//        self.backgroundColor = .white
         self.register(BlogListCell.self, forCellReuseIdentifier: "BlogListCell")
         self.separatorStyle = .singleLine
         self.rowHeight = 100
